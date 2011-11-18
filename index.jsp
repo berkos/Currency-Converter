@@ -6,11 +6,11 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-
+ 
 <html>
   <head>
      <title>Currency Converter by Antonis</title>
-      <link rel="stylesheet" type="text/css" href="grafika.css" />
+      <link rel="stylesheet" type="text/css" href="grafika2.css" />
   </head>
   <body>
      <form method="post" action="CurrencyConverter">
@@ -111,11 +111,11 @@
      </form>
       </p>
       
-       <form method="POST" action="CurrencyConverter">
+       <form method="post" action="CurrencyConverter">
            <p></p>
-           <input type=submit  value="SRC" />
+           <input type=submit  value="?" />
            <input type="hidden" name="method" value="redirect">
-           <INPUT TYPE="BUTTON" VALUE="?" ONCLICK="window.location.href='/Curency_Converter/doc.html'" >  
+           <INPUT TYPE="BUTTON" VALUE="SRC" ONCLICK="window.location.href='http://dl.dropbox.com/u/12925667/project1_WWW_Berkakis.rar'" >  
            
        </form>
       

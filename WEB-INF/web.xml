@@ -13,4 +13,14 @@
             30
         </session-timeout>
     </session-config>
+   
+   <context-param>
+       <param-name>source</param-name>
+       <param-value>doc.html</param-value>
+       </context-param>
+   
+    <listener>
+       <listener-class>com.berkos.currency.ListenerDoc</listener-class>
+     </listener>
+     
 </web-app>

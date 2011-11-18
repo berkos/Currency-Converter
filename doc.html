@@ -6,7 +6,7 @@ and open the template in the editor.
 <html>
     <head>
         <title>Documentetion about Curency Converter by Antonis</title>
-        <link rel="stylesheet" type="text/css" href="grafika.css" />
+        <link rel="stylesheet" type="text/css" href="grafika2.css" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
@@ -22,8 +22,20 @@ and open the template in the editor.
 Σαν τελικό βήμα αυτό που έκανα ήταν να βάλω δυο option ώστε να μην περιοριζόμαστε μόνο στο ευρώ αλλά να έχουμε την δυνατότητα μετατρόπης  κάθε άλλου νομίσματος μεταξύ οποιοδήποτε άλλου.<br> 
  p.s. η εφαρμογή δουλεύει και για “.” Και  για “,” για να χωρίσει τους δεκαδικούς.
 
+ 
 
 </div>
-<p> Berkakis Antonis </p>
+        <h3>Περισσότερα για το προτζεκτ </h3>
+        <div>
+            Το προτζεκτ βασίζετε σε ένα servlet to CurrencyConverter.java  το όποιο κάνει parsing ένα xml κώδικα Apo to http://www.ecb.int/stats/eurofxref/eurofxref-daily.xml   το όποιο δυσκολεύτηκα να το κάνω parsing αλλά βρήκα ένα κομμάτι κώδικα από το  http://www.java-forum.org/xml-co/115149-xml-parsen-jdom-nullpointerecxeption.html  το όποιο δεν ήταν αρκετό γιατί  διάβαζε και άλλους dummy χαραχτήρες και έτσι αναγκαστικά να το  τροποποιήσω σε μια δίκια μου συνάρτηση  την void readxml(). Έπειτα ότι διαβάζαμε αποθηκευόταν σε ένα πινάκα με currencies έπειτα για να επιλεγεί το σωστό currency και να επιστραφεί η ισοτιμία του έφτιαξα την συνάρτηση  void isotimia() pou κάνει διαφόρους ελέγχους με βάση τα ορίσματα από την html και επιστρέφει την σωστή ισοτιμία κάθε φορά. Αυτές οι δυο συναρτήσεις βρίσκονται στο αρχείο  CurrencyConverter.java<br><br> 
+Λίγα λόγια για το κουμπί ( ? ) <br><br> 
+Έπειτα για να φτιάξω το redirect το έκανα με listener , για την ακρίβεια έβαλα το λινκ /doc.html μέσα στο web.xml   και έπειτα μέσα από μια κλάση  listener έφτιαχνα την κλάση Doc στην όποια αποθήκευα το λινκ σαν string.<br><br> 
+Λίγα λόγια για το κουμπί ( SRC )<br><br> 
+Απλά ένα λινκ προς μια διεύθυνση ενός public αρχειου μέσα στον dropbox φάκελο μου.<br><br>  Επίσης η εργασία μου βρίσκετε και στο GitHub και είναι έτοιμη για fork στην διεύθυνση<br><br> 
+
+
+        </div>
+        <a href="https://github.com/berkos/Currency-Converter">https://github.com/berkos/Currency-Converter</a>
+        <p> Berkakis Antonis </p>
     </body>
 </html>
